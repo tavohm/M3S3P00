@@ -1,18 +1,6 @@
  <link href="style.css" rel="stylesheet" type="text/css">
  <?php
 
-   // instanciamos un objeto    
-    $ecuacion = new Ecuacion();
-
-    // pasamos los valores de las variables a las variables de la clase
-    $ecuacion->setA($_POST["a"]);
-    $ecuacion->setB($_POST["b"]);
-    $ecuacion->setC($_POST["c"]);
-
-    // usamos el método Soluciones para resolver la ecucación
-    $ecuacion->Soluciones();
-
-
     class Ecuacion{
         // atributos
         private $a;
@@ -67,5 +55,15 @@
         }
     }
 
+    // instanciamos un objeto    
+    $ecuacion = new Ecuacion();
+
+    // pasamos los valores de las variables a las variables de la clase
+    $ecuacion->setA($_POST["a"]);
+    $ecuacion->setB($_POST["b"]);
+    $ecuacion->setC($_POST["c"]);
+
+    // usamos el método Soluciones para resolver la ecucación
+    $ecuacion->Soluciones();
  
  ?>
