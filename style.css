@@ -16,3 +16,8 @@ input {
 h1 {
     text-align: center;
 }
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
