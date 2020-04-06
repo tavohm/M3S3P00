@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Práctica 30</title>
+</head>
+
+<body>
+    <h2>OPERACIONES BÁSICAS DE UN CRUD</h2>
+    <form action="practica30.php" method="post">
+        <Input type='Radio' Name='opc' value='create'> <label>CREATE (Nuevo Registro)</label><br />
+        <input type="text" name="nombre">
+        <input type="text" name="app">
+        <Input type='Radio' Name='opc' value='read'> <label>READ (Consultar Registros)</label><br />
+        <Input type='Radio' Name='opc' value='update'> <label>UPDATE (Actualizar Registro)</label><br />
+        <Input type='Radio' Name='opc' value='delete'> <label>DELETE (Borrar Registro)</label><br />
+        <input type="submit" value="Ejecutar Consulta">
+    </form>
+</body>
+
+</html>
